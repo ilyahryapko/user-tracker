@@ -1,0 +1,90 @@
+.main-content {
+  margin: auto;
+  min-width: 600px;
+  width: 70%;
+}
+
+.application-header {
+  margin: 0;
+  padding: 1rem;
+  background-color: #30362F;
+  color: whitesmoke
+}
+
+.application-header a {
+  color: #fffbdb;
+  text-decoration:none
+}
+
+.table-log {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-log th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #A59132;
+  color: white;
+}
+
+.table-log td, .table-log th {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.table-log tr:nth-child(even){background-color: #f2f2f2;}
+
+.table-log tr:hover {background-color: #ddd;}
+
+.btn {
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  min-width: 100px;
+
+  background-color: #DA7422;
+  border: 2px solid #DA7422;
+  color: white;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #DA7422
+}
+
+.btn:disabled {
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  min-width: 100px;
+
+  background-color: red;
+  border: 2px solid red;
+  color: white;
+}
+
+.btn:disabled:hover {
+  background-color: red;
+  border: 2px solid red;
+  color: white;
+}
+
+.navigation-area {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.lorem-paragraph {
+  text-align: justify;
+}
